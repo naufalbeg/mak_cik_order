@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(flutter emulators --launch Pixel_6)",
+      "PowerShell(cmd /c setup.bat)",
+      "PowerShell(flutter analyze 2>&1)"
+    ]
+  }
+}

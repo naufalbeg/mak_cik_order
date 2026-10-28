@@ -1,0 +1,28 @@
+name: mak_cik_order
+description: "Mak Cik, Order! – Jelajah Rasa Malaysia. A casual time-management game celebrating Malaysian food, stalls and regional speech."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/images/foods/
+    - assets/images/characters/
+    - assets/images/stalls/
+    - assets/images/backgrounds/
+    - assets/images/ui/
